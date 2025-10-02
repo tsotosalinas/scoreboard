@@ -1,0 +1,315 @@
+{
+  "app": {
+    "name": "Test",
+    "fullName": "Test - TBC ScoreBoard",
+    "club": "Toulouse Basket Club",
+    "team": "Équipe Loisirs",
+    "motto": "Vamos Toros !",
+    "version": "2.0.0",
+    "matchDuration": 600
+  },
+  
+  "teams": {
+    "homeTeam": "HOME",
+    "visitorTeam": "VISITOR"
+  },
+  
+  "display": {
+    "layout": "symmetric",
+    "scoreSize": "12rem",
+    "timerSize": "8rem",
+    "scoreFontFamily": "'Space Mono', 'Roboto Mono', monospace",
+    "timerFontFamily": "'Space Mono', 'Roboto Mono', monospace",
+    "primaryColor": "#00ff00",
+    "secondaryColor": "#ffff00",
+    "backgroundColor": "#d3d3d3",
+    "feedbackColor": "#ff6b35",
+    "feedbackDuration": 2000,
+    "shortcutDisplay": {
+      "enabled": true,
+      "format": "({key})",
+      "fontSize": "0.7rem",
+      "color": "#888888"
+    },
+    "showControls": true
+  },
+  
+  "assets": {
+    "logo": "./assets/logo.jpeg",
+    "logoSize": "250px",
+    "backgroundImage": "./assets/bg.jpeg",
+    "backgroundOpacity": 0.05,
+    "backgroundSize": "cover",
+    "backgroundPosition": "center"
+  },
+  
+  "audio": {
+    "globalVolume": 0.8,
+    "sounds": {
+      "buzzer": {
+        "enabled": true,
+        "files": ["./assets/audio/buzzer.mp3"],
+        "volume": 1.0,
+        "description": "Son du buzzer de fin de temps"
+      }
+    }
+  },
+  
+  "animations": {
+    "enabled": true,
+    "overlayBackground": "#000000",
+    "overlayOpacity": 0.95
+  },
+  
+  "actions": {
+    "score1pt_home": {
+      "sounds": [
+        "./assets/audio/bruh.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/1pts-1.gif"
+      ],
+      "gifDuration": 2000,
+      "randomSelection": true,
+      "volume": 0.7,
+      "description": "Panier 1 point équipe domicile"
+    },
+    "score2pt_home": {
+      "sounds": [
+        "./assets/audio/2pts.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/2pts-4.png",
+        "./assets/gifs/2pts-5.png",
+        "./assets/gifs/2pts-6.png",
+        "./assets/gifs/2pts-7.png",
+        "./assets/gifs/2pts-8.png"
+      ],
+      "gifDuration": 2000,
+      "randomSelection": true,
+      "volume": 0.8,
+      "description": "Panier 2 points équipe domicile"
+    },
+    "score3pt_home": {
+      "sounds": [
+        "./assets/audio/bangbang.mp3",
+        "./assets/audio/bangbang2.mp3",
+        "./assets/audio/bangbang3.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/3pts.gif",
+        "./assets/gifs/3pts-2.gif",
+        "./assets/gifs/3pts-3.gif",
+        "./assets/gifs/3pts-4.gif",
+        "./assets/gifs/3pts-5.gif",
+        "./assets/gifs/3pts-6.gif",
+        "./assets/gifs/3pts-7.gif",
+        "./assets/gifs/3pts-8.gif",
+        "./assets/gifs/3pts-9.gif",
+        "./assets/gifs/3pts-10.gif"        
+      ],
+      "gifDuration": 2500,
+      "randomSelection": true,
+      "volume": 0.9,
+      "description": "Panier 3 points équipe domicile"
+    },
+    "score1pt_visitor": {
+      "sounds": [
+        "./assets/sounds/panier_1.mp3",
+        "./assets/sounds/panier_2.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/score_simple.gif"
+      ],
+      "gifDuration": 1500,
+      "randomSelection": true,
+      "volume": 0.7,
+      "description": "Panier 1 point équipe visiteur"
+    },
+    "score2pt_visitor": {
+      "sounds": [
+        "./assets/audio/2pts.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/2pts.png",
+        "./assets/gifs/2pts-2.png",
+        "./assets/gifs/2pts-3.png",
+        "./assets/gifs/2pts-9.png"        
+      ],
+      "gifDuration": 2000,
+      "randomSelection": true,
+      "volume": 0.8,
+      "description": "Panier 2 points équipe visiteur"
+    },
+    "score3pt_visitor": {
+      "sounds": [
+        "./assets/audio/bangbang.mp3",
+        "./assets/audio/bangbang2.mp3",
+        "./assets/audio/bangbang3.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/3pts.gif",
+        "./assets/gifs/3pts-2.gif",
+        "./assets/gifs/3pts-3.gif",
+        "./assets/gifs/3pts-4.gif",
+        "./assets/gifs/3pts-5.gif",
+        "./assets/gifs/3pts-6.gif",
+        "./assets/gifs/3pts-7.gif",
+        "./assets/gifs/3pts-8.gif",
+        "./assets/gifs/3pts-9.gif",
+        "./assets/gifs/3pts-10.gif"        
+      ],
+      "gifDuration": 2500,
+      "randomSelection": true,
+      "volume": 0.9,
+      "description": "Panier 3 points équipe visiteur"
+    },
+    "omg": {
+      "sounds": [
+        "./assets/audio/omg.mp3",
+        "./assets/audio/omg2.mp3",
+        "./assets/audio/omg3.mp3",
+        "./assets/audio/omg4.mp3",
+        "./assets/audio/omg5.mp3",
+        "./assets/audio/omg6.mp3",
+        "./assets/audio/omg7.mp3",
+        "./assets/audio/omg8.mp3",
+        "./assets/audio/omg9.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/omg.gif",
+        "./assets/gifs/omg2.gif",
+        "./assets/gifs/omg3.gif",
+        "./assets/gifs/omg4.gif",
+        "./assets/gifs/omg5.gif",
+        "./assets/gifs/omg6.gif",
+        "./assets/gifs/omg7.gif",
+        "./assets/gifs/omg8.gif",
+        "./assets/gifs/omg9.gif"
+      ],
+      "gifDuration": 3000,
+      "randomSelection": true,
+      "volume": 0.9,
+      "description": "Action OMG - Geste de grande classe"
+    },
+    "victory_home": {
+      "sounds": [
+        "./assets/sounds/victory_celebration.mp3",
+        "./assets/sounds/crowd_cheer.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/victory_dance.gif",
+        "./assets/gifs/trophy.gif"
+      ],
+      "gifDuration": 4000,
+      "randomSelection": true,
+      "volume": 1.0,
+      "description": "Victoire équipe domicile"
+    },
+    "victory_visitor": {
+      "sounds": [
+        "./assets/sounds/victory_celebration.mp3",
+        "./assets/sounds/crowd_cheer.mp3"
+      ],
+      "gifs": [
+        "./assets/gifs/victory_dance.gif",
+        "./assets/gifs/trophy.gif"
+      ],
+      "gifDuration": 4000,
+      "randomSelection": true,
+      "volume": 1.0,
+      "description": "Victoire équipe visiteur"
+    }
+  },
+
+  "keyboard": {
+    "shortcuts": [
+      {
+        "key": " ",
+        "action": "toggleTimer",
+        "description": "Démarrer/Arrêter le chrono"
+      },
+      {
+        "key": "1",
+        "action": "score1pt_home",
+        "description": "HOME : +1 point"
+      },
+      {
+        "key": "2",
+        "action": "score2pt_home",
+        "description": "HOME : +2 points"
+      },
+      {
+        "key": "3",
+        "action": "score3pt_home",
+        "description": "HOME : +3 points"
+      },
+      {
+        "key": "7",
+        "action": "score1pt_visitor",
+        "description": "VISITOR : +1 point"
+      },
+      {
+        "key": "8",
+        "action": "score2pt_visitor",
+        "description": "VISITOR : +2 points"
+      },
+      {
+        "key": "9",
+        "action": "score3pt_visitor",
+        "description": "VISITOR : +3 points"
+      },
+      {
+        "key": "o",
+        "action": "omg",
+        "description": "OMG - Geste de classe"
+      },
+      {
+        "key": "b",
+        "action": "buzzer",
+        "description": "Buzzer manuel"
+      },
+      {
+        "key": "u",
+        "action": "undoLastAction",
+        "description": "Annuler dernière action"
+      },
+      {
+        "key": "r",
+        "action": "resetGame",
+        "description": "Nouveau match"
+      },
+      {
+        "key": "=",
+        "action": "addTime",
+        "params": { "seconds": 60 },
+        "description": "+1 minute"
+      },
+      {
+        "key": "-",
+        "action": "addTime",
+        "params": { "seconds": -60 },
+        "description": "-1 minute"
+      }
+    ]
+  },
+  
+  "rules": {
+    "victoryConditions": {
+      "enabled": true,
+      "minScore": 15,
+      "scoreDifference": 3,
+      "playVictoryAnimation": true,
+      "playVictorySound": true
+    },
+    "autoEndGame": false
+  },
+  
+  "advanced": {
+    "enableDebugMode": false,
+    "logActions": true,
+    "maxHistoryItems": 50,
+    "autoSave": true,
+    "configReloadKey": "F5"
+  }
+}
